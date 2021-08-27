@@ -1,0 +1,7 @@
+spawn(function()
+        _G.Ez = false
+
+for i,v in pairs(workspace:GetDescendants()) do
+    if v:isA("Sound") then v:Play() end
+end
+end)

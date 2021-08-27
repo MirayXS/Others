@@ -1,0 +1,8 @@
+spawn(function()
+    _G.Ez = true
+        while _G.Ez == true do wait() 
+for i,v in pairs(workspace:GetDescendants()) do
+    if v:isA("Sound") then v:Stop() end
+end
+end
+end)

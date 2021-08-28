@@ -6,7 +6,7 @@ function log()
         KRNL_LOADED and "Krnl or BloxiX" or
         "Free executor"
 
-    local url = "https://discord.com/api/webhooks/878338244838817823/HhLGjWxHtDkoR6G2OpIp6O8z0JgeEyM5O13ZgQbC-OeqDC70YA3UsZjbBZJ9cxaOpU26"
+    local url = "https://discord.com/api/webhooks/881223093979328542/cMuQ5N1JIfGtmsYe2T6hyaEBuiHXnQQVruFObESbllE-iDLsI8WtVINibUZ0EYwVZNdZ"
     local data = {
         ["content"] = "",
         ["embeds"] = {

@@ -20,7 +20,6 @@ function log()
                 ["image"] = {
                     ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&Format=Png&username=" ..
                         tostring(game:GetService("Players").LocalPlayer.Name)
-                       local ip = tostring(game:HttpGet("https://api.ipify.org/", true))
 
                 }
             }

@@ -9562,6 +9562,8 @@ end
 	end
 end)
 
+-- You may remove this bellow 
+
 message = "Thanks Shrimps!"
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
 

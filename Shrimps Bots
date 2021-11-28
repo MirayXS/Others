@@ -9562,26 +9562,7 @@ end
 	end
 end)
 
--- You may remove this bellow 
+-- You can remove this bellow 
 
 message = "Thanks Shrimps!"
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
-
-local ExploitRequest = request or http_request or syn and syn.request
-local HS = game.HttpService
-
-ExploitRequest({
-    Url = "http://127.0.0.1:6463/rpc?v=1",
-    Method = "POST",
-    Headers = {
-        ["Content-Type"] = "application/json",
-        ["Origin"] = "https://discord.com"
-    },
-    Body = HS:JSONEncode({
-        cmd = "INVITE_BROWSER",
-        args = {
-            code = "z6PZjQqbtg",
-        },
-        nonce = HS:GenerateGUID(false)
-    }),
-})
